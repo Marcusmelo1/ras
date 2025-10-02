@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+ 
+}
+html {
+    background-color: bisque;
+}
+
+header  {
+    
+    background-image:   url(casa.jpg) ;
+    background-position: center center;
+
+    background-repeat: no-repeat;
+    height:200px;
+
+
+ 
+    background-size:cover ;
+  
+    width: 100%;
+
+
+  
+    text-align: center;
+    color: white;
+   
+}
+.cabeca{
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    height:200px;
+  display: flex;               
+  flex-direction: column;      
+  justify-content: center;     
+  align-items: center;   
+  border-radius: 20px;
+ 
+}
+
+#pratos{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+  
+
+    
+}
+
+
+
+
+
+.categoria{
+    color: rgb(238, 238, 238);
+    background-color: rgb(248, 154, 30);
+    font-size:  30px;
+   height: 60px;
+   color: aqua;
+    width: 50%;
+   text-align: center;
+   padding-top: 10px;
+   margin-left: 150px;
+   border-radius: 10px;
+   margin-top: 10px;
+   
+    
+}
+
+
+
+.prato, .igredi {
+    color: aqua;
+     background: linear-gradient(to right, red, blue);
+    flex-direction: column;
+    padding-left: 20px;
+    color: white;
+    box-shadow: 33331px;
+    
+
+    
+    
+
+}
+.prato {
+    font-size: 2em;
+}
+.peixe{
+    align-items: center;
+    justify-items: center;
+    margin-left: 250px;
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+
+    
+}
+.dados {
+    background-color: antiquewhite;
+}
+
+#ali{
+    background-color: rgb(255, 145, 0);
+
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 650px) {
+    #laodo {
+        background-color: aliceblue;
+    }
+    header{
+        background-color: rgb(0, 0, 0);
+    }
+}
