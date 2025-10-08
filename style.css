@@ -154,6 +154,8 @@ header  {
 iframe {
     border-radius: 20px;
     border-color: blue;
+    width:500px;
+    height:400px;
 }
 
 
