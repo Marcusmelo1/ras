@@ -3,7 +3,7 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
-    overflow-x: hidden;
+    
  
 }
 html {
@@ -121,8 +121,9 @@ header  {
 }
 
 .casa {
-    height:400px;
+    
     width: 500px;
+    max-width: 100%;
 
 }
 
@@ -154,7 +155,7 @@ header  {
 iframe {
     border-radius: 20px;
     border-color: blue;
-    width:500px;
+    max-width: 100%;
     height:400px;
 }
 
